@@ -24,5 +24,22 @@ namespace SampleAPINet5.Repository
         {
             return Items.Where(x => x.id == id).SingleOrDefault();
         }
+
+        public void CreateItem(Item item)
+        {
+            Items.Add(item);
+        }
+
+        public void UpdateItem(Item item)
+        {
+            int Index = Items.FindIndex(x=>x.id == item.id);
+            Items[Index] = item;
+        }
+
+        public void DeleteItem(Guid guid)
+        {
+            int Index = Items.FindIndex(x => x.id == guid);
+            Items.RemoveAt(Index);
+        }
     }
 }
