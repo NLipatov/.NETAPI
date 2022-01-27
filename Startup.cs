@@ -7,6 +7,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using SampleAPINet5.Repository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -27,6 +28,7 @@ namespace SampleAPINet5
         public void ConfigureServices(IServiceCollection services)
         {
 
+            services.AddSingleton<IItemsRepository, ItemsRepository>();
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
