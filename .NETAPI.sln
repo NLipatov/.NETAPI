@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31911.196
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleAPINet5", "SampleAPINet5\SampleAPINet5.csproj", "{B168A53E-96C0-4EA6-966D-49983CA89629}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = ".NETAPI", ".NETAPI\.NETAPI.csproj", "{26A86F74-A5D8-43B2-9547-8B7926B91A43}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B168A53E-96C0-4EA6-966D-49983CA89629}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B168A53E-96C0-4EA6-966D-49983CA89629}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B168A53E-96C0-4EA6-966D-49983CA89629}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B168A53E-96C0-4EA6-966D-49983CA89629}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26A86F74-A5D8-43B2-9547-8B7926B91A43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26A86F74-A5D8-43B2-9547-8B7926B91A43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26A86F74-A5D8-43B2-9547-8B7926B91A43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26A86F74-A5D8-43B2-9547-8B7926B91A43}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
