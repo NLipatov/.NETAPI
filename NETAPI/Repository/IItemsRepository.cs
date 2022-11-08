@@ -1,8 +1,8 @@
-﻿using SampleAPINet5.Entities;
+﻿using NETAPI.Entities;
 using System;
 using System.Collections.Generic;
 
-namespace SampleAPINet5.Repository
+namespace NETAPI.Repository
 {
     public interface IItemsRepository
     {

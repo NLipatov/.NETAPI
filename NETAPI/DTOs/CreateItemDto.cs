@@ -1,15 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace SampleAPINet5.Entities
+namespace NETAPI.DTOs
 {
-    public record Item
+    public record CreateItemDto
     {
-        public Guid id { get; init; }
+        [Required]
         public string Name { get; init; }
+        [Required]
+        [Range(1,1000)]
         public decimal Price { get; init; }
-        public DateTimeOffset CreatedDate { get; init; }
     }
 }

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace SampleAPINet5.DTOs
+namespace NETAPI.DTOs
 {
     public record ItemDto
     {

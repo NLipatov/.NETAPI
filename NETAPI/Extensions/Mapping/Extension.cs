@@ -1,11 +1,11 @@
-﻿using SampleAPINet5.DTOs;
-using SampleAPINet5.Entities;
+﻿using NETAPI.DTOs;
+using NETAPI.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace SampleAPINet5
+namespace NETAPI
 {
     public static class Extension
     {

@@ -1,13 +1,13 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using SampleAPINet5.DTOs;
-using SampleAPINet5.Entities;
-using SampleAPINet5.Repository;
+using NETAPI.DTOs;
+using NETAPI.Entities;
+using NETAPI.Repository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace SampleAPINet5.Controllers
+namespace NETAPI.Controllers
 {
 
     // GET /items

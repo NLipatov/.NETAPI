@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace SampleAPINet5.DTOs
+namespace NETAPI.DTOs
 {
     public record UpdateItemDto
     {
